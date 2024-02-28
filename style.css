@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #2a2626;
+}
+
+.logo{
+    height: 85px;
+    width:140px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    position:static;
+   
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 208, 0);
+    text-shadow: 0 0 100px rgb(255, 208, 0);
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+
+.details h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    margin-left: 40px;
+
+}
+
+span{
+    color: rgb(255, 208, 0);
+    margin-left: 20px;
+    font-family:Bernardtango;
+    font-size: 60px;
+}
+
+.details p{
+    color: rgb(164, 164, 155);
+    line-height: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.details a{
+    background: rgb(255, 208, 0);;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 180px;
+    }
+
+   .details a:hover {
+        color: #111;
+        background: rgb(255, 208, 0);
+        box-shadow: 0 0 50px rgb(255, 208, 0);
+    }
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+
+}
+
+.image:hover .shape{
+    bottom: 40px;
+    
+}
+
+.image:hover .photo{
+    left: 45%;
+}
+
+#About{
+    width: auto;
+    height: 110vh;
+    background-color: rgb(45, 45, 45);
+}
+
+
+.me{
+    font-size: 80px;
+    color: rgb(255, 208, 0);
+    font-family:Bernardtango;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 0 0 50px rgb(255, 208, 0);
+
+}
+
+.text1{
+    width: 1000px;
+    height: 170px;
+    margin-left: 250px;
+    justify-content: safe;
+
+}
+.text{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+   font-size: 27px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Project{
+    background-color: #2a2828;
+}
+#Project h1{
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 550px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#Project span{
+    color:rgb(255, 208, 0);
+    
+}
+
+#Project row1{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.port1{
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.port2{
+    width: 450px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.port1:hover{
+    width: 470px;
+
+}
+
+.port2:hover{
+  width:470px;
+
+}
+
+#Contact{
+    background-color: #211e1e;
+    height: 100vh;
+}
+
+#Contact h1{
+    margin-left: 550px;
+    font-size: 50px;
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+
+
+#fname{
+    background-color: #535050;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#email{
+    background-color: #444242;
+    width: 250px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#mobile{
+    background-color: #535050;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#sub{
+    background-color: #444242;
+    width: 250px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#address{
+    background-color: #444242;
+    width: 550px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#button{
+    background-color: rgb(255, 208, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 650px;
+    font-size: 20px;
+   
+    
+}
+
+#button:hover{
+    box-shadow: 0 0 50px rgb(255, 208, 0);
+}
